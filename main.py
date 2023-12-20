@@ -1,7 +1,7 @@
 import time
 import streamlit as st
 
-st.set_page_config(page_title=“Farewell”, page_icon=“👋🏽”, layout=“wide”)
+st.set_page_config(page_title='Farewell', page_icon='👋🏽', layout='wide')
 with st.spinner('Wait for it...'):
     time.sleep(5)
 st.snow()
