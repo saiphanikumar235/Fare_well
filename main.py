@@ -23,5 +23,4 @@ time.sleep(5)
 st.toast("saiphanikumar2000@gmail.com", icon='📧')
 st.toast("https://www.linkedin.com/in/saiphani-kumar-b33431177/")
 c = st.container()
-if st.toggle('Contact me', disabled=True):
-    c.text("https://www.linkedin.com/in/saiphani-kumar-b33431177/")
+c.text("https://www.linkedin.com/in/saiphani-kumar-b33431177/")
